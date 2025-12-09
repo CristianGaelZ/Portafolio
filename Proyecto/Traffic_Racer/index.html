@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Racer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Traffic Racer</h1>
+        
+        <div class="game-info">
+            <div class="score">Puntuación: <span id="score">0</span></div>
+            <div class="player-indicators">
+                <div class="player-indicator">
+                    <div class="player-color player1-color"></div>
+                    <span>Jugador 1</span>
+                </div>
+                <div class="player-indicator">
+                    <div class="player-color player2-color"></div>
+                    <span>Jugador 2</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="startButton">Iniciar Juego</button>
+            <button id="resetButton">Reiniciar Juego</button>
+            <button id="twoPlayerButton">Modo 2 Jugadores</button>
+        </div>
+        
+        <div class="canvas-container">
+            <canvas id="gameCanvas" width="600" height="400"></canvas>
+            <div id="gameOver" class="game-over">
+                <h2>¡Game Over!</h2>
+                <p id="finalScore">Puntuación: 0</p>
+                <button id="restartButton">Jugar de Nuevo</button>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h3>Instrucciones:</h3>
+            <ul>
+                <li><strong>Jugador 1:</strong> Flechas Izquierda/Derecha para moverse</li>
+                <li><strong>Jugador 2 (en modo 2 jugadores):</strong> Teclas A/D para moverse</li>
+                <li>Esquiva los autos que vienen en sentido contrario</li>
+                <li>Mantente en el carril libre para evitar colisiones</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

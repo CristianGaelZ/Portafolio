@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Cristian Zúñiga - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Cristian Zúñiga</a>
+            <button class="nav-toggle" aria-label="Abrir menú" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#habilidades">Frontend Stack</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Hola, soy Cristian Zúñiga</h1>
+                    <h2>Diseñador y Desarrollador Frontend</h2>
+                    <p>Apasionado por transformar diseños creativos en experiencias de usuario fluidas y accesibles. Mi enfoque principal es la maquetación pixel-perfect, la creación de animaciones y la optimización de la performance visual en navegadores.</p>
+                    
+                </div>
+                <div class="hero-image">
+                    <img src="yo.jpg" alt="Foto de Perfil de Cristian Zúñiga" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="skills section-padding">
+            <div class="container">
+                <h2>Mi Frontend Stack</h2>
+                <div class="skills-grid">
+                    <span class="skill-badge">HTML5 Semántico</span>
+                    <span class="skill-badge">CSS3 & SASS</span>
+                    <span class="skill-badge">JavaScript (React/Vue)</span>
+                    <span class="skill-badge">Diseño Responsive (Mobile First)</span>
+                    <span class="skill-badge">Performance Web</span>
+                    <span class="skill-badge">UI/UX Básico</span>
+                    <span class="skill-badge">Git & Deployment</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="projects section-padding">
+            <div class="container">
+                <h2>Proyectos Destacados</h2>
+                <p class="subtitle">Explora la interacción y el diseño de mis soluciones front-end.</p>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                    <h3>Juego Arcade: Traffic Racer</h3>
+                    <p class="project-unit">Focus: HTML5 Canvas & Game Logic</p>
+                    <p>
+                        Recreación de un juego de conducción arcade. Desarrollado íntegramente con **HTML5 Canvas** y JavaScript puro. Destaca el manejo de colisiones, la lógica de *spawning* de enemigos y la implementación de modos de 1 y 2 jugadores localmente.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML5 Canvas</span><span class="tag">JavaScript Game</span><span class="tag">Interacción</span><span class="tag">Múltiples Jugadores</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="Proyecto/Traffic_Racer/index.html" class="btn btn-primary">Jugar Ahora</a>
+                        <a href="Proyecto/Traffic_Racer/index.html" target="_blank" class="btn btn-secondary">Abrir Completo</a>
+                    </div>
+                </div>
+
+                    <div class="project-card">
+                        <h3>Revista Vintage (Grid/Flex)</h3>
+                        <p class="project-unit">Focus: CSS Grid & Diseño</p>
+                        <p>
+                            Maquetación de alta fidelidad a antiguos años, es decir, que simula una publicación con estilos complejos de columnas, tipografía especializada y jerarquía visual. Uso de CSS Grid para layout avanzado.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">CSS Grid</span><span class="tag">Tipografía</span><span class="tag">Responsive</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="Proyecto/Periodico/index.html" class="btn btn-primary">Ver Maquetación</a>
+                            <a href="Proyecto/Periodico/index.html" target="_blank" class="btn btn-secondary">Abrir Completo</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                    <h3>Memorama Interactivo (JS)</h3>
+                    <p class="project-unit">Focus: Lógica de Juego & Animaciones</p>
+
+                    <p>
+                        Juego tipo memorama desarrollado con JavaScript, mostrando lógica de coincidencias,
+                        manejo de eventos, animaciones visuales y retroalimentación al usuario. Incluye 
+                        barajado dinámico, sistema de pares y contadores.
+                    </p>
+
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Game UX</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <a href="Proyecto/memorama/memorama.html" class="btn btn-primary">
+                            Jugar Ahora
+                        </a>
+                        <a href="Proyecto/memorama/memorama.html" target="_blank" class="btn btn-secondary">
+                            Abrir Completo
+                        </a>
+                    </div>
+                </div>
+
+
+                </div>
+            </div>
+        </section>
+        
+        <section id="contacto" class="contact section-padding">
+             <div class="container">
+                <h2>Contacto</h2>
+                <p>Si deseas colaborar o tienes alguna pregunta, no dudes en contactarme a través de mis redes o correo electrónico (contacto@cristianzuniga.com).</p>
+             </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cristian Zúñiga. Desarrollado con para demostrar habilidades Frontend.</p>
+        </div>
+    </footer>
+
+    <div id="preview-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-modal">&times;</span>
+            <h3 id="modal-title">Vista Previa del Proyecto</h3>
+            <iframe id="preview-iframe" src="" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
